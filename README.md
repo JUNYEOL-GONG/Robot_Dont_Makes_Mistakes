@@ -1,7 +1,12 @@
 # Robot_Dont_Makes_Mistakes
 ### 게임인재원 5기 1학기 미니프로젝트
-프로젝트 명 : &lt;로봇은 실수하지 않아>  
-제작 환경 : WinAPI / C++  
-수상 : 최우수상 (1등)  
+프로젝트 이름 : &lt;로봇은 실수하지 않아>  
+개발 환경 : Visual Studio 2022 / WinAPI / C++  
+수상 내역 : 최우수상 🏆
+
+&lt;로봇은 실수하지 않아> 플레이 영상  
+<https://www.youtube.com/watch?v=wxcprpCqLQU>
+
+<br>
 
 SVN으로 작업해서 커밋 내역이 없습니다.
