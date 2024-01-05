@@ -8,7 +8,3 @@
 
 &lt;로봇은 실수하지 않아> 플레이 영상  
 <https://www.youtube.com/watch?v=wxcprpCqLQU>
-
-<br>
-
-SVN으로 작업해서 커밋 내역이 없습니다.
