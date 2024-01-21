@@ -22,11 +22,10 @@ public:
 	const wstring& GetRelativePath() { return m_relativePath; } // path getter
 
 public:
-	
+
 	/// 持失切
 	Res();
 
 	/// 社瑚切
 	virtual ~Res();
 };
-

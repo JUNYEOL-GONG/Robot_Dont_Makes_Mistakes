@@ -3,7 +3,7 @@
 enum class SOUND_TYPE;
 
 /// <summary>
-/// 역학 : 사운드 관리
+/// 역할 : 사운드 관리
 /// fmod.hpp의 FMOD (C++ 스타일) 사용
 /// 담당자 : 공준열
 /// </summary>

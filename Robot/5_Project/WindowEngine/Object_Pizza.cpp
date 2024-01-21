@@ -20,14 +20,16 @@ Object_Pizza::Object_Pizza(GameProcess* gameProcess)
 	, m_pizzaSideTex(nullptr)
 {
 	SetName(L"Object_Pizza");
-	// Texture 로딩
+
+	// Create Manager & HDC
 	ResourceManager* resourceManager = gameProcess->GetResourceManager();
 	PathManager* pathManager = gameProcess->GetPathManager();
 	HDC mainDC =gameProcess->GetMainDC();
 
-
+	// Pizza Texture Load
 	m_pizzaTopTex = resourceManager->LoadTexture(L"PizzaTop", L"\\Texture\\Ingredient\\PizzaTop.bmp", pathManager, mainDC);
 	m_pizzaSideTex = resourceManager->LoadTexture(L"PizzaSide", L"\\Texture\\Ingredient\\PizzaSide.bmp", pathManager, mainDC);
+
 	// 도우를 가진채로 생성
 	m_pizzaTopping.push_back(TOPPING::DOUGH);
 	m_pizzaTopping.push_back(TOPPING::NONE);
@@ -81,7 +83,7 @@ BASETOPPINGCHECK Object_Pizza::AddTopping(TOPPING _topping)
 				{
 					return BASETOPPINGCHECK::STAND;
 				}
-				else 
+				else
 				{
 					m_pizzaTopping[1] = _topping;
 					return BASETOPPINGCHECK::OK;
@@ -199,16 +201,16 @@ void Object_Pizza::PizzaNameCreate()
 
 	if (m_pizzaKind == PIZZAKIND::DUAL)
 		SortTopping(&m_pizzaTopping);
-		
+
 	// 피자 이름 체크 ----------------------------------
-	
+
 	std::wstring topping1, topping2;
 	topping1 = TranslateTopping(m_pizzaTopping[3]);
 	if (m_pizzaTopping.size() == 5) {
 		topping2 = TranslateTopping(m_pizzaTopping[4]);
 	}
 	else topping2 = L"";
-	
+
 	m_pizzaName = L"";
 
 	switch (m_pizzaKind)
@@ -245,13 +247,13 @@ void Object_Pizza::SortTopping(vector<TOPPING>* _topping)
 		((*_topping)[3] == TOPPING::POTATO && (*_topping)[4] == TOPPING::PINEAPPLE) ||  /// 하와이안 포테이토
 		((*_topping)[3] == TOPPING::POTATO && (*_topping)[4] == TOPPING::SHIRIMP) ||	/// 슈림프 포테이토
 		((*_topping)[3] == TOPPING::POTATO && (*_topping)[4] == TOPPING::OLIVE) ||  /// 올리브 포테이토
-		 
+
 		((*_topping)[3] == TOPPING::SHIRIMP && (*_topping)[4] == TOPPING::OLIVE) ||	/// 올리브 슈림프
-		 
+
 		((*_topping)[3] == TOPPING::PEPPERONI && (*_topping)[4] == TOPPING::PINEAPPLE) ||	/// 하와이안 페퍼로니
 		((*_topping)[3] == TOPPING::PEPPERONI && (*_topping)[4] == TOPPING::SHIRIMP) ||	/// 슈림프 페퍼로니
 		((*_topping)[3] == TOPPING::PEPPERONI && (*_topping)[4] == TOPPING::OLIVE) ||  /// 올리브 페퍼로니
-		 
+
 		((*_topping)[3] == TOPPING::PINEAPPLE && (*_topping)[4] == TOPPING::SHIRIMP) ||	/// 슈림프 하와이안
 		((*_topping)[3] == TOPPING::PINEAPPLE && (*_topping)[4] == TOPPING::OLIVE))			/// 올리브 하와이안
 	{

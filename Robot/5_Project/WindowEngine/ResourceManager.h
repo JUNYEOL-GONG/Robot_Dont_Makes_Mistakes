@@ -3,7 +3,7 @@
 // Res와 Texture 클래스를 전방 선언
 class Res;
 class Texture;
-class  PathManager;
+class PathManager;
 
 /// <summary>
 /// 역할 : 리소스 제어를 총괄 (로드, 생성, 검색)
