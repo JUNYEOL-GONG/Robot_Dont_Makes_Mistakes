@@ -17,5 +17,5 @@
   6. `각종 유틸 클래스 및 콘텐츠 제작`
      - Math Class, Easter Egg ..
 
-* [로실않 기술 문서](https://github.com/joonyle99/Robot_Dont_Makes_Mistakes/discussions/3)  
-* [로실않 플레이 영상](https://www.youtube.com/watch?v=wxcprpCqLQU)
+* [기술 문서](https://github.com/joonyle99/Robot_Dont_Makes_Mistakes/discussions/3)  
+* [플레이 영상](https://www.youtube.com/watch?v=wxcprpCqLQU)
