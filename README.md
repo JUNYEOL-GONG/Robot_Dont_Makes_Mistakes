@@ -14,7 +14,7 @@
   3. `FMOD API를 이용한 SoundManager`
   4. `PathManager와 ResourceManager`
      - Bitmap Texture와 같은 리소스를 손쉽게 가져와서 사용
-  6. `각종 유틸 클래스 및 콘텐츠 제작`
+  6. `각종 Util 클래스 및 콘텐츠 제작`
      - Math Class, Easter Egg ..
 
 * [기술 문서](https://github.com/joonyle99/Robot_Dont_Makes_Mistakes/discussions/3)  
