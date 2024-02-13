@@ -15,7 +15,6 @@
   4. `PathManager와 ResourceManager`
      - Bitmap Texture와 같은 리소스를 손쉽게 가져와서 사용
   6. `각종 Util 클래스 및 콘텐츠 제작`
-     - Math Class, Easter Egg ..
 
 ![](https://github.com/joonyle99/Robot_Dont_Makes_Mistakes/assets/67359781/2726e3c9-bed2-4bbe-89c5-b35e49c4d636)
 
