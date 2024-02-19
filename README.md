@@ -7,7 +7,7 @@
 * 개발 환경 : `Visual Studio 2022` / `WinAPI` / `C++`
 * 제작 기간 : `2023.05.15` ~ `2023.05.26`
 * 담당 파트 :
-  1. `유햔 상태 머신(FSM) 설계 및 각 상태에 따른 기능 구현`
+  1. `유한 상태 머신(FSM) 설계 및 각 상태에 따른 기능 구현`
      - 플레이어 : Idle, Move, Rest, Die
      - 사장님 : Idle, Patrol, Find, Done
   3. `FMOD API를 이용한 SoundManager`
