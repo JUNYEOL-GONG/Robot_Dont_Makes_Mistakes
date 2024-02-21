@@ -10,12 +10,12 @@
   1. `유한 상태 머신(FSM) 설계 및 각 상태에 따른 기능 구현`
      - 플레이어 : Idle, Move, Rest, Die
      - 사장님 : Idle, Patrol, Find, Done
-  3. `FMOD API를 이용한 SoundManager`
-  4. `PathManager와 ResourceManager`
+  2. `FMOD API를 이용한 SoundManager`
+  3. `PathManager와 ResourceManager`
      - Bitmap Texture와 같은 리소스를 손쉽게 가져와서 사용
-  6. `각종 Util 클래스 및 콘텐츠 제작`
+  4. `각종 Util 클래스 및 콘텐츠 제작`
+
+### [기술 문서](https://github.com/joonyle99/Robot_Dont_Makes_Mistakes/discussions/3)  
+### [플레이 영상](https://www.youtube.com/watch?v=wxcprpCqLQU)
 
 ![](https://github.com/joonyle99/Robot_Dont_Makes_Mistakes/assets/67359781/2726e3c9-bed2-4bbe-89c5-b35e49c4d636)
-
-* [기술 문서](https://github.com/joonyle99/Robot_Dont_Makes_Mistakes/discussions/3)  
-* [플레이 영상](https://www.youtube.com/watch?v=wxcprpCqLQU)
