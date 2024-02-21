@@ -15,7 +15,7 @@
      - Bitmap Texture와 같은 리소스를 손쉽게 가져와서 사용
   4. `각종 Util 클래스 및 콘텐츠 제작`
 
-### 기술 문서 링크 : [https://github.com/joonyle99/Robot_Dont_Makes_Mistakes/discussions](https://github.com/joonyle99/Robot_Dont_Makes_Mistakes/discussions/3)  
-### 플레이 영상 링크 : [https://www.youtube.com/watch?v=wxcprpCqLQU](https://www.youtube.com/watch?v=wxcprpCqLQU)
+#### 기술 문서 : [https://github.com/joonyle99/Robot_Dont_Makes_Mistakes/discussions/3 ](https://github.com/joonyle99/Robot_Dont_Makes_Mistakes/discussions/3)  
+#### 플레이 영상 : [https://www.youtube.com/watch?v=wxcprpCqLQU](https://www.youtube.com/watch?v=wxcprpCqLQU)
 
 ![](https://github.com/joonyle99/Robot_Dont_Makes_Mistakes/assets/67359781/2726e3c9-bed2-4bbe-89c5-b35e49c4d636)
