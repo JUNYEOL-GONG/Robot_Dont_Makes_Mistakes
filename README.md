@@ -13,7 +13,6 @@
   2. `FMOD API를 이용한 SoundManager`
   3. `PathManager와 ResourceManager`
      - Bitmap Texture와 같은 리소스를 손쉽게 가져와서 사용
-  4. `각종 Util 클래스 및 콘텐츠 제작`
 
 <details>
 <summary>느낀점</summary>
