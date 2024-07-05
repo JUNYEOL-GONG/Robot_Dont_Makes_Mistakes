@@ -26,3 +26,4 @@
 #### 플레이 영상 : [https://www.youtube.com/watch?v=wxcprpCqLQU](https://www.youtube.com/watch?v=wxcprpCqLQU)
 
 ![](https://github.com/joonyle99/Robot_Dont_Makes_Mistakes/assets/67359781/2726e3c9-bed2-4bbe-89c5-b35e49c4d636)
+*플레이 영상*
